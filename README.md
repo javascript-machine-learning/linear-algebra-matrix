@@ -1,7 +1,6 @@
 # Installation
 
-* `git clone git@github.com:rwieruch/node-babel-server.git`
-* `cd node-babel-server`
+* `git clone git@github.com:rwieruch/linear-algebra-matrix.git`
+* `cd linear-algebra-matrix`
 * `npm install`
 * `npm start`
-
