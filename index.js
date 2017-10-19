@@ -76,6 +76,17 @@ console.log('Matrix Multiplication:');
 console.log(matrixKL.valueOf());
 console.log('\n');
 
+// Matrix Division
+
+const matrixY = math.matrix([[0, 2], [2, 4], [4, 6]]);
+const matrixZ = math.matrix([[2, 1], [2, 2]]);
+
+const matrixYZ = math.divide(matrixY, matrixZ);
+
+console.log('Matrix Division:');
+console.log(matrixYZ.valueOf());
+console.log('\n');
+
 // Matrix Property: Not Commutative
 
 const matrixN = math.matrix([[0, 1], [2, 3], [4, 5]]);
